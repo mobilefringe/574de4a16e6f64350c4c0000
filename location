@@ -34,7 +34,7 @@ Huntington Beach, CA 92648
     
     function renderPage(){
         prefix = get_prefix();
-        var pages_json = prefix+ "/pages/greenvalley-location.json"
+        var pages_json = prefix+ "/pages/seacliff-location.json"
         $.getJSON(pages_json).done(function(data) {
             $('#mm_page_content').html(data.body);
         }).fail(function(jqXHR) {
