@@ -12,10 +12,9 @@
         </a>
         <ul id="category_container2" class="dropdown-menu" aria-labelledby="cat_dd2">
             <li href="#" class="show_all_stores">All</li>
-            <li class="show_cat_stores" data-id="4035">Restaurant</li>
-            <li class="show_cat_stores" data-id="4024">Pizza Restaurant</li>
-            <li class="show_cat_stores" data-id="4042">Barbeque Restaurant</li>
-            <li class="show_cat_stores" data-id="4044">Health Food Restaurant</li>
+            <li class="show_cat_stores" data-id="4167">Restaurant</li>
+            <li class="show_cat_stores" data-id="4168">Specialty Foods & Grocery</li>
+          
         </ul>
     </div>
     <div class="store_nav hidden_phone">
@@ -37,10 +36,8 @@
                 </a>
                 <ul id="category_container" class="dropdown-menu" aria-labelledby="cat_dd">
                     <li href="#" class="show_all_stores">All</li>
-                    <li class="show_cat_stores" data-id="4035">Restaurant</li>
-                    <li class="show_cat_stores" data-id="4024">Pizza Restaurant</li>
-                    <li class="show_cat_stores" data-id="4042">Barbeque Restaurant</li>
-                    <li class="show_cat_stores" data-id="4044">Health Food Restaurant</li>
+                     <li class="show_cat_stores" data-id="4167">Restaurant</li>
+            <li class="show_cat_stores" data-id="4168">Specialty Foods & Grocery</li>
                 </ul>
             </div>
         </div>
@@ -91,14 +88,12 @@
     
     function renderPage(){
         var stores = [];
-        var s1 = getStoresListByCategoryID(4035)
-        var s2 = getStoresListByCategoryID(4024)
-        var s3 = getStoresListByCategoryID(4042)
-        var s4 = getStoresListByCategoryID(4044)
+        var s1 = getStoresListByCategoryID(4167)
+        var s2 = getStoresListByCategoryID(4168)
+       
         stores = stores.concat(s1)
         stores = stores.concat(s2)
-        stores = stores.concat(s3)
-        stores = stores.concat(s4)
+
         var newarr = [];
         var unique = {};
         $.each(stores, function(i,v){
