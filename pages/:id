@@ -27,13 +27,13 @@
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
         if (slug == "seacliff-privacy-policy"){
-           $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/574de4a16e6f64350c4c0000/image/jpeg/undefined/sv_440x1200_side_events.jpg")
+           $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/574de4a16e6f64350c4c0000/image/jpeg/undefined/sv_440x1200_side_privacy.jpg")
         }
        if (slug == "seacliff-services"){
-           $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/574de4a16e6f64350c4c0000/image/jpeg/undefined/sv_440x1200_side_events.jpg")
+           $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/574de4a16e6f64350c4c0000/image/jpeg/undefined/sv_440x1200_side_services.jpg")
         }
         if (slug == "seacliff-contact-us"){
-           $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/574de4a16e6f64350c4c0000/image/jpeg/undefined/sv_440x1200_side_events.jpg")
+           $('#side_image').attr('src', "http://assets.codecloudapp.com/sites/574de4a16e6f64350c4c0000/image/jpeg/undefined/sv_440x1200_side_contact.jpg")
         }
         prefix = get_prefix();
         $('#top_banner').addClass(slug)
