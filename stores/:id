@@ -13,7 +13,8 @@
                     <a class="side_link" style="{{phone_show}}" href="tel:{{phone}}">{{phone}}</a>
                     <p class="colored_link" style="">Address</p>
                     <p class="side_link">
-                        2275 Village Walk Drive Henderson, Nevada 89052
+                        Yorktown Avenue & Main Street
+Huntington Beach, CA 92648
                     </p>
                     <a class="main_btn animated_btn" href="{{website}}" target="_blank" style="{{show}}">Visit Website</a>
                 </div>
