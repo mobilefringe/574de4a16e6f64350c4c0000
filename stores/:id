@@ -163,7 +163,7 @@
         var stores = getStoresList();
         $("#png_map").attr("src", getPNGMapURL())
 		$('#png_map').smoothZoom({
-		      height: 496,
+		    height: 496,
 		    width: 619,
 		    initial_ZOOM: 26,
 			zoom_MIN: 26,
