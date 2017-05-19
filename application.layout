@@ -58,8 +58,7 @@
     
     <!-- Site data -->
     <script>
-        // setEndPoint('//seacliff.mallmaverick.com/api/v3/seacliff/all.json');
-        setEndPoint('//twinpines.mallmaverick.com/api/v3/twinpines/all.json');
+        setEndPoint('//seacliff.mallmaverick.com/api/v3/seacliff/all.json');
     </script>
 </head>
 
