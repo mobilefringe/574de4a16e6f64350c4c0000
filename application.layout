@@ -85,9 +85,9 @@
                     <a href="https://www.facebook.com/ShopSeacliff/" target="_blank">
                         <span id="social_facebook"></span>
                     </a>
-                    <a href="https://twitter.com/ShopSeacliff" target="_blank">
-                        <span id="social_twitter"></span>
-                    </a>
+                    <!--<a href="https://twitter.com/ShopSeacliff" target="_blank">-->
+                    <!--    <span id="social_twitter"></span>-->
+                    <!--</a>-->
                     <!--<a href="https://www.pinterest.com/shopseacliff/" target="_blank">-->
                     <!--    <span id="social_pinterest"></span>-->
                     </a>
