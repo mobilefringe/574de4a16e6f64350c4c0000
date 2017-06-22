@@ -102,7 +102,7 @@
         if($(window).width() <= 768){
             $('.details_header').click()
         }
-    if (isIE()){
+        if (isIE()){
             show_png_pin_without_link($('#store_name').attr('data-value'), $('#store_name').text(), "#png_map")
         }    
         
