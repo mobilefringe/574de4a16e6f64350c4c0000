@@ -54,7 +54,7 @@
     
     <!-- Site data -->
     <script>
-        $.getJSON("//costamesa.mallmaverick.com/api/v4/costamesa/subcategories.json?bust=true").done(function(data){
+        $.getJSON("//seacliff.mallmaverick.com/api/v4/seacliff/subcategories.json?bust=true").done(function(data){
             
         });
         setEndPoint('//seacliff.mallmaverick.com/api/v4/seacliff/all.json');
