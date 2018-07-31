@@ -121,7 +121,11 @@ $animation_color: #78adae;
         margin: auto;
     }
 }
-
+@media (max-width: 768px) {
+    #dining_container .cats_row {
+         display: block;
+    }
+}
 
 
 
